@@ -1,30 +1,7 @@
 /**
   
-                                                              
-                                                            
-                                                            
-                                                            
-                     *%@@@@@@@@@@@@@@@%*                    
-               /@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/              
-            &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           
-          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         
-        %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&       
-       @@@@@@@@@@@@@@(  (@@@@@@@@@@@(  (@@@@@@@@@@@@@@      
-      (@@@@@@@@@@@@@      @@@@@@@@@      @@@@@@@@@@@@@#     
-      @@@@@@@ @@@@@@#    (@@@@@@@@@#    (@@@@@@ @@@@@@@     
-      @@@@@@  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%  @@@@@@     
-      @@@@#    @@@@@@@@@@@@/     /@@@@@@@@@@@@    (@@@@     
-      (%       %@@@@@@@@@%         %@@@@@@@@@&       %(     
-                @@@@@@@@@@@       &@@@@@@@@@@               
-                 @@@@@@@@@@@@, .@@@@@@@@@@@@                
-                  @@@@@@@@@@@@ @@@@@@@@@@@@                 
-                    @@@@@@@@*   ,@@@@@@@@                   
-                                                            
-                                                            
-                                                            
-   #AUSSIE
    
-   #LIQ+#RFI+#SHIB+#DOGE = #AUSSIE
+   #LIQ+#RFI+#SHIB+#DOGE = #MYBITFINANCE
 
    #AUSSIE features:
    5% fee auto add to the liquidity pool to be locked forever when selling
@@ -713,7 +690,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract AUSSIE is Context, IERC20, Ownable {
+contract MYBIT is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -731,8 +708,8 @@ contract AUSSIE is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "Australian Shepherd Token";
-    string private _symbol = "ASS";
+    string private _name = " MYBIT Token";
+    string private _symbol = "MBT";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
